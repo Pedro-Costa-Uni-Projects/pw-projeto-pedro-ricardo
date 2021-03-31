@@ -100,3 +100,9 @@ body {
     border: 5px solid steelblue;
     border-radius: 15%;
 }
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
