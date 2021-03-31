@@ -3,6 +3,14 @@
     font-family: 'New Tegomin', serif;
 }
 
+section {
+    font-size: 105%;
+}
+
+a {
+    color: rgb(58, 109, 167);
+}
+
 /*CSS GRID NAMES*/
 header {grid-area: header;}
 nav {grid-area: menu;}
@@ -62,6 +70,7 @@ nav > a {
 
 h1 {
     text-align: center;
+    font-size: 250%;
 }
   
 nav > a.active {
@@ -78,6 +87,16 @@ body {
     background-color: lightgray;
 }
 
+#firstBig::first-letter {
+    font-size: 150%;
+}
 
+.centerIframeOrSvg {
+    display: block;
+    margin: auto;
+}
 
-
+[class~="borBlueRad25"] {
+    border: 5px solid steelblue;
+    border-radius: 15%;
+}
