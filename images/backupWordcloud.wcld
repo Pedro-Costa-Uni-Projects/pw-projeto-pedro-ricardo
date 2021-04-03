@@ -3,7 +3,8 @@
 5	Benifícios
 5	Estilos
 5	Galeria
+5	Provas
 5	About
 5	Home
---------------------CloudConfig v3.5.4--------------------
+--------------------CloudConfig v3.6--------------------
 {"seed":24629,"ZM_shape":{"char":"f04d","scale":1.1,"top":4,"weightFactor":10},"ZM_autoWeight":true,"ZM_curShape":"fa-stop","ZM_curTheme":"t1","ZM_userWeightAdjust":0,"ZM_userGridSizeAdjust":0,"ZM_canvasWidth":1600,"ZM_canvasHeight":900,"ZM_colorMode":"custom","ZM_gradientColors":[],"CO_shape":"circle","CO_backgroundColor":"rgb(211, 211, 211)","CO_backgroundImage":null,"CO_colorArray":["rgb(0, 140, 194)","rgb(6, 48, 65)","rgba(82, 185, 214, 1)","rgb(94, 134, 149)","rgb(39, 96, 117)","rgba(136, 147, 153, 1)"],"CO_drawMask":false,"CO_maskColor":"rgba(250, 251, 255, 0)","CO_fontFamily":"\"PT Sans\"","CO_fontWeight":400,"CO_fontStyle":"normal","CO_wordDirection":"random","CO_inverted":false,"CO_drawMode":"inside-out"}
