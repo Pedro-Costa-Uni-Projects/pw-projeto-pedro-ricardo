@@ -84,7 +84,7 @@ nav > a:hover:not(.active) {
 }
 
 body {
-    background-color: lightgray;
+    background-color: rgb(235, 235, 235);
 }
 
 #firstBig::first-letter {
