@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt">
 <head>
+    <!--Para não ficar tudo mal quando for para telemovel-->
+    <style>
+        @media (max-width: 600px) {
+            main {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+        }
+    </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="keywords" content="Natação, Swimming, Desporto">
@@ -46,7 +56,60 @@
             About
         </a>
     </nav>
+    <!--Este main não tem o style habitual dos outros main, pois precisava de usar float, e não tava a bater bem com o flex-->
     <main>
+        <!--HISTORIA A NATAÇÃO-->
+        <section>
+            <h3>Qual é a história da natação?</h3>
+                <p id="firstBig" style="text-align: justify;">
+                    Os seres humanos nadam há milênios.
+                    De acordo com a Wikipedia, os desenhos em cavernas da Idade da Pedra retratam indivíduos nadando e há referências escritas na Bíblia e nos poemas gregos "The Lliad" e "The Odyssey" que datam de 1.500 a 2.000 anos.  
+                    <a href="https://pt.wikipedia.org/wiki/Nata%C3%A7%C3%A3o">[1]</a>
+                </p>
+                <figure style="float: right;">
+                    <a href="https://www.terra.com.br/vida-e-estilo/saude/bem-estar/19-mitos-e-verdades-sobre-natacao,19cecaf0cb92455dab063aa77d3f8581grpwyfyv.html">
+                        <img src="images/home1.jpg" class="fotoHome1">
+                    </a>
+                    <figcaption>
+                        <a href="estilos.html" style="color: black;">
+                            Nado estilo "Crawl"
+                        </a>
+                    </figcaption>
+                </figure>
+        </section>
+        <section>
+            <p id="firstBig" style="text-align: justify;">
+                De acordo com a <i>Encyclopedia of Traditional British Rural Sports</i>, a literatura especificamente relacionada à natação cresceu na idade média.
+                Acredita-se que o primeiro livro dedicado à natação foi <i>Colymbetes</i> de Nicolas Wynman escrito em 1538, e um texto mais amplamente conhecido, De Arte Nantandi, foi publicado em latim por Everard Digby em 1587.
+                A enciclopédia também relata que a natação era exigida dos cavaleiros e que os romanos construíram casas de banho e piscinas nas cidades que conquistaram para servir como clubes sociais e locais de exercício.
+            </p>
+            <p id="firstBig" style="text-align: justify;">
+                A natação organizada começou nos anos 1800 e 1900 com a criação de associações de natação e clubes que competiam entre si.
+                Nessa época, há relatos de clubes de natação na Inglaterra, França, Alemanha e Estados Unidos.
+                Eventos de alto nível também contribuíram para a visibilidade da natação. Por exemplo, Matthew Webb nadou no Canal da Mancha (<i>English Channel</i>) em 1875, em menos de 22 horas.
+            </p>
+        </section>
+        <section>
+            <figure style="text-align: center;">
+                <a href="https://www.historytoday.com/archive/months-past/matthew-webb-swims-english-channel">
+                    <img class="fotoHome2" src="images/home2.jpg">
+                </a>
+                <figcaption>Capitão Matthem Webb</figcaption>
+            </figure>
+        </section>
+        <section>
+            <p id="firstBig" style="text-align: justify;">
+                A natação competitiva continuou a crescer em popularidade durante os anos 1800 e foi incluída nos primeiros Jogos Olímpicos modernos em Atenas, em 1896.
+                Em 1904, as Olimpíadas em St. Louis incluíram as provas de 50-, 100-, 220-, 440-, 880 jardas e um estilo livre de uma milha, o nado de costas de 100 jardas e o nado de peito de 440 jardas e um revezamento de nado livre de 4x50 jardas.
+            </p>
+            <p id="firstBig" style="text-align: justify;">
+                No século 20, a natação havia se tornado a tendência. Piscinas cobertas estavam começando a aparecer, a maioria das cidades com população de mais de 20.000 tinha piscinas públicas ao ar livre e os clubes de natação se tornaram cada vez mais populares para recreação.
+                As mulheres participaram pela primeira vez da natação nos Jogos Olímpicos de Estocolmo em 1912, e Johnny Weissmuller tornou-se a primeira pessoa a nadar 100 metros em menos de um minuto.
+            </p>
+        </section>
+        <section>
+            <iframe class="centerIframeOrSvg" width="500" height="255" style="max-width: 100%; border: 5px solid rgb(8, 70, 95);" src="https://www.youtube.com/embed/E4Kdh1TSmJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
     </main>
     <aside>
         <svg width="300" height="200">

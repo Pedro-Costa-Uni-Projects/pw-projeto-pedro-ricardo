@@ -9,6 +9,8 @@ section {
 
 a {
     color: rgb(58, 109, 167);
+    /*Tirar o sublinhado dos links*/
+    text-decoration: none;
 }
 
 /*CSS GRID NAMES*/
@@ -42,7 +44,6 @@ nav > a {
     display: block;
     color: #000;
     padding: 8px 16px;
-    text-decoration: none;
 }
 
 /*PHONE E TABLET*/
@@ -105,4 +106,13 @@ aside {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.fotoHome1 {
+    transform: rotate(10deg);
+    filter: grayscale();
+}
+
+.fotoHome2 {
+    border: 5px grey solid;
 }
