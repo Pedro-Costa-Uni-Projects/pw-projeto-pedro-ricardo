@@ -121,6 +121,7 @@ aside {
     from {transform: translateY(-100px);}
     to {transform: translateY(0px);}
 }
+
 h1 {
     animation-name: moverH1;
     animation-duration: 5s;
