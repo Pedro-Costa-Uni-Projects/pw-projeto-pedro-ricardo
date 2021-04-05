@@ -126,3 +126,18 @@ h1 {
     animation-name: moverH1;
     animation-duration: 5s;
 }
+
+/*CENAS SOBRE AS TABELAS*/
+.centerTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border: 1px solid black;
+    background-color: rgb(235, 235, 235);
+}
+th, td {
+    border: 1px solid black;
+    background-color: steelblue;
+}
