@@ -149,8 +149,43 @@ th, td {
     justify-content: space-around;
 }
 
+/*CLASSES IMAGENS GALERIA*/
 .contentorFlex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.relativo {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 10%;
+}
+
+.absoluto {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+/*ESTES DOIS FICAM FEIOS NO SITE, MAS ELES QUEREM ISTO ENTÃO O MELHOR É ASSIM*/
+.fixo {
+    position: fixed;
+    bottom: 3%;
+    right: 0;
+}
+
+.sticky {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 5%;
+}
+
+/*Display a none, para as fotos desaparecerem no modo telemovel, se não fica tudo em cima um do outro*/
+@media (max-width: 600px) {
+    .fixo, .sticky {
+        display: none;
+    }
+}
+
