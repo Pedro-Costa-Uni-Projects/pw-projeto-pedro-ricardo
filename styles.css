@@ -141,3 +141,16 @@ th, td {
     border: 1px solid black;
     background-color: rgb(138, 189, 231);
 }
+
+/*ADICIONEI ISTO POIS ESTAVAMOS A REPETIR ISTO EM TODAS AS PAGINAS EXCETO NO INDEX*/
+.mainDisplayFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contentorFlex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
