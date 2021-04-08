@@ -46,7 +46,86 @@
             About
         </a>
     </nav>
-    <main>      
+    <main>
+        <h3>Dê-nos a sua opinião sobre o Website</h3>
+        <form oninput="outR.value=parseInt(rig.value)" method="POST" action="mailto:a21904553@alunos.ulht.pt">
+            <input type="reset" value="Limpar">
+            <p>&#x2139; Escolha para cada critério um valor de 1 a 5 sendo 1 Péssimo e 5 Muito Bom.</p>
+            <p>Clareza:
+                <input type="radio" id="clar1" name="clar" value="1">
+                <label for="clar1">1</label>
+                <input type="radio" id="clar2" name="clar" value="2">
+                <label for="clar2">2</label>
+                <input type="radio" id="clar3" name="clar" value="3">
+                <label for="clar3">3</label>
+                <input type="radio" id="clar4" name="clar" value="4">
+                <label for="clar4">4</label>
+                <input type="radio" id="clar5" name="clar" value="5">
+                <label for="clar5">5</label>
+            </p>
+            <p>Rigor:
+                <input type="radio" id="clar1" name="clar" value="1">
+                <label for="clar1">1</label>
+                <input type="radio" id="clar2" name="clar" value="2">
+                <label for="clar2">2</label>
+                <input type="radio" id="clar3" name="clar" value="3">
+                <label for="clar3">3</label>
+                <input type="radio" id="clar4" name="clar" value="4">
+                <label for="clar4">4</label>
+                <input type="radio" id="clar5" name="clar" value="5">
+                <label for="clar5">5</label>
+            </p>
+            <p>Originalidade:
+                <input type="radio" id="clar1" name="clar" value="1">
+                <label for="clar1">1</label>
+                <input type="radio" id="clar2" name="clar" value="2">
+                <label for="clar2">2</label>
+                <input type="radio" id="clar3" name="clar" value="3">
+                <label for="clar3">3</label>
+                <input type="radio" id="clar4" name="clar" value="4">
+                <label for="clar4">4</label>
+                <input type="radio" id="clar5" name="clar" value="5">
+                <label for="clar5">5</label>
+            </p>
+            <p>Precisão:
+                <input type="radio" id="clar1" name="clar" value="1">
+                <label for="clar1">1</label>
+                <input type="radio" id="clar2" name="clar" value="2">
+                <label for="clar2">2</label>
+                <input type="radio" id="clar3" name="clar" value="3">
+                <label for="clar3">3</label>
+                <input type="radio" id="clar4" name="clar" value="4">
+                <label for="clar4">4</label>
+                <input type="radio" id="clar5" name="clar" value="5">
+                <label for="clar5">5</label>
+            </p>
+
+            <p>&#x2139; Escolha as opções que acha que este Website teve em conta:</p>
+                <u>
+                    <li>
+                        <label for="prof">Profundidade</label>
+                        <input type="checkbox" id="prof" name="prof" value="Profundidade">
+                    </li>
+                    <li>
+                        <label for="amp">Amplitude</label>
+                        <input type="checkbox" id="amp" name="amp" value="Amplitude">
+                    </li>
+                    <li>
+                        <label for="log">Lógica</label>
+                        <input type="checkbox" id="log" name="log" value="Lógica">
+                    </li>
+                    <li>
+                        <label for="sign">Significância</label>
+                        <input type="checkbox" id="sign" name="sign" value="Significância">
+                    </li>
+                </u>
+                <br>
+                <h3>Deixe em baixo a sua sugestão para podermos melhorar</h3>
+                <textarea name="mensagem" rows="7" cols="50"></textarea>
+                <input type="hidden" id="idLAB" name="idLAB" value="3">
+                <br>
+                <input type="submit" value="Enviar Comentários" style="height:25px; width:130px;" onclick="alert('Obrigado pela sua opinião')">
+        </form>
     </main>
     <aside>
         <svg width="300" height="200">
