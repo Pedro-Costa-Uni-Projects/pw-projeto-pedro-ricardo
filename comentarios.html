@@ -48,8 +48,33 @@
     </nav>
     <main>
         <h3>Dê-nos a sua opinião sobre o Website</h3>
-        <form oninput="outR.value=parseInt(rig.value)" method="POST" action="mailto:a21904553@alunos.ulht.pt">
+        <form method="POST" action="mailto:a21904553@alunos.ulht.pt">
             <input type="reset" value="Limpar">
+            <p>
+                <label class="widthLabel" for="fname">Primeiro Nome:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Seu nome...">
+            </p>
+            <p>
+                <label class="widthLabel" for="lname">Último Nome:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Seu último nome...">
+            </p>
+            <p>
+                <label class="widthLabel" for="email">Email:</label> 
+                <input type="email" id="email" name="email" placeholder="Seu email..."> 
+            </p>
+            <p>
+                <label class="widthLabel" for="pais">País: </label> 
+                <select id="pais" name="pais">    
+                    <option value="none">Selecione uma opção</option>    
+                    <option value="pt">Portugal</option>    
+                    <option value="br">Brasil</option>    
+                    <option value="esp">Espanha</option>    
+                    <option value="uk">Reino Unido</option>    
+                    <option value="ale">Alemanha</option>    
+                    <option value="bel">Bélgica</option>    
+                    <option value="eua">EUA</option>    
+                </select>  
+            </p>
             <p>&#x2139; Escolha para cada critério um valor de 1 a 5 sendo 1 Péssimo e 5 Muito Bom.</p>
             <p>Clareza:
                 <input type="radio" id="clar1" name="clar" value="1">
@@ -65,39 +90,39 @@
             </p>
             <p>Rigor:
                 <input type="radio" id="Rig1" name="Rig" value="1">
-                <label for="clar1">1</label>
+                <label for="rig1">1</label>
                 <input type="radio" id="Rig2" name="Rig" value="2">
-                <label for="clar2">2</label>
+                <label for="rig2">2</label>
                 <input type="radio" id="Rig3" name="Rig" value="3">
-                <label for="clar3">3</label>
+                <label for="rig3">3</label>
                 <input type="radio" id="Rig4" name="Rig" value="4">
-                <label for="clar4">4</label>
+                <label for="rig4">4</label>
                 <input type="radio" id="Rig5" name="Rig" value="5">
-                <label for="clar5">5</label>
+                <label for="rig5">5</label>
             </p>
             <p>Originalidade:
                 <input type="radio" id="Ori1" name="Ori" value="1">
-                <label for="clar1">1</label>
+                <label for="ori1">1</label>
                 <input type="radio" id="Ori2" name="Ori" value="2">
-                <label for="clar2">2</label>
+                <label for="ori2">2</label>
                 <input type="radio" id="Ori3" name="Ori" value="3">
-                <label for="clar3">3</label>
+                <label for="ori3">3</label>
                 <input type="radio" id="Ori4" name="Ori" value="4">
-                <label for="clar4">4</label>
+                <label for="ori4">4</label>
                 <input type="radio" id="Ori5" name="Ori" value="5">
-                <label for="clar5">5</label>
+                <label for="ori5">5</label>
             </p>
             <p>Precisão:
                 <input type="radio" id="Pre1" name="Pre" value="1">
-                <label for="clar1">1</label>
+                <label for="pre1">1</label>
                 <input type="radio" id="Pre2" name="Pre" value="2">
-                <label for="clar2">2</label>
+                <label for="pre2">2</label>
                 <input type="radio" id="Pre3" name="Pre" value="3">
-                <label for="clar3">3</label>
+                <label for="pre3">3</label>
                 <input type="radio" id="Pre4" name="Pre" value="4">
-                <label for="clar4">4</label>
+                <label for="pre4">4</label>
                 <input type="radio" id="Pre5" name="Pre" value="5">
-                <label for="clar5">5</label>
+                <label for="pre5">5</label>
             </p>
 
             <p>&#x2139; Escolha as opções que acha que este Website teve em conta:</p>
@@ -120,10 +145,10 @@
                     </li>
                 </u>
                 <br>
-                <h3>Deixe em baixo a sua sugestão para podermos melhorar</h3>
-                <textarea name="mensagem" rows="7" cols="50"></textarea>
-                <input type="hidden" id="idLAB" name="idLAB" value="3">
-                <br>
+                <h4>FeedBack:</h4>
+                <p>
+                    <textarea name="mensagem" rows="7" placeholder="A sua opinião..."></textarea>
+                </p>
                 <input type="submit" value="Enviar Comentários" style="height:25px; width:130px;" onclick="alert('Obrigado pela sua opinião')">
         </form>
     </main>
