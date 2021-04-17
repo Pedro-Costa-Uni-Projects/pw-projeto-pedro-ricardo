@@ -188,7 +188,7 @@ th, td {
 .sticky {
     position: sticky;
     position: -webkit-sticky;
-    top: 5%;
+    top: 7%;
 }
 
 /*Display a none, para as fotos desaparecerem no modo telemovel, se não fica tudo em cima um do outro*/
@@ -197,4 +197,3 @@ th, td {
         display: none;
     }
 }
-
