@@ -226,3 +226,14 @@ input[type=email] {
     border: 2px solid black;
 
 }
+
+table.tableCenter td {
+    text-align: center;
+}
+
+.tabelasPequenasAbout {
+    display: flex;
+    align-items:baseline;
+    justify-content:space-evenly; 
+    flex-wrap: wrap;
+}
